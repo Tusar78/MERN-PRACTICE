@@ -1,12 +1,14 @@
 import React from 'react'
+import './Friend.css'
 
-const Friend = ({friends}) => {
-    console.log(friends);
-    
+const Friend = ({friends: {name, age, major}}) => {
+
   return (
     <>
-      <div>
-        <h2>Name: {friends}</h2>
+      <div className='friend'>
+        <h2>Name: {name}</h2>
+        <p>Name: {age}</p>
+        <p>Name: {major}</p>
       </div>
     </>
   )
