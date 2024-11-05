@@ -1,35 +1,54 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const personAopo = {
+    name: "Aopo",
+    age: 24,
+    major: "web",
+  };
+  const personSalman = {
+    name: "Salman",
+    age: 24,
+    major: "Graphics",
+  };
+  const personJannat = {
+    name: "Jannat",
+    age: 23,
+    major: "UI/UX",
+  };
 
-  return (
+  const personStyle = {
+    display: 'flex',
+    flexDirection: 'column',
+    gap: '25px'
+  }
+
+  return (    
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <div style={personStyle}>
+        <Person personData={personAopo}></Person>
+        <Person personData={personSalman}></Person>
+        <Person personData={personJannat}></Person>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
-  )
+  );
 }
 
-export default App
+function Person({ personData: { name="Tusar", age="25", major="web" } }) {
+  const styleObj = {
+    border: "1px solid purple",
+    borderRadius: "10px",
+    padding: "12px 60px",
+  };
+  return (
+    <>
+      <div className="profile" style={styleObj}>
+        <h2>Name: {name}</h2>
+        <p>Age: {age}</p>
+        <p>Major: {major}</p>
+      </div>
+    </>
+  );
+}
+
+export default App;
