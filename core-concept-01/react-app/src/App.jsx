@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Friend from "./Friend/Friend";
+import Users from "./Users/Users";
 
 const App = () => {
   const friendsData = [
@@ -20,7 +21,7 @@ const App = () => {
   }
   return (
     <>
-      <p>{count}</p>
+      {/* <p>{count}</p>
       <button onClick={handleCount}>Add</button>
       <button onClick={handleReduce}>Reduce</button>
 
@@ -29,7 +30,9 @@ const App = () => {
       ></Friend>
       {friendsData.map((friend, id) => (
         <Friend friends={friend} key={id}></Friend>
-      ))}
+      ))} */}
+
+      <Users />
     </>
   );
 };
