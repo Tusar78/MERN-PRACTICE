@@ -7,8 +7,8 @@ const Friend = ({friends: {name, age, major}}) => {
     <>
       <div className='friend'>
         <h2>Name: {name}</h2>
-        <p>Name: {age}</p>
-        <p>Name: {major}</p>
+        <p>age: {age}</p>
+        <p>Major: {major}</p>
       </div>
     </>
   )
