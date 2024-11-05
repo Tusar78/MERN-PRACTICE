@@ -1,4 +1,5 @@
 import "./App.css";
+import Todo from "./Todo";
 
 function App() {
   const personAopo = {
@@ -20,15 +21,15 @@ function App() {
   const personStyle = {
     display: 'flex',
     flexDirection: 'column',
-    gap: '25px'
+    gap: '10px'
   }
 
   return (    
     <>
       <div style={personStyle}>
-        <Person personData={personAopo}></Person>
-        <Person personData={personSalman}></Person>
-        <Person personData={personJannat}></Person>
+        <Todo task={'reactjs'} isDone={true} />
+        <Todo task={'UI/UX'} isDone={true} />
+        <Todo task={'reactjs'} isDone={false} />
       </div>
     </>
   );
