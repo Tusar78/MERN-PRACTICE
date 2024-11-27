@@ -1,0 +1,19 @@
+.country-item {
+    padding: 20px;
+    border: 1px solid #af9dff;
+    border-radius: 8px;
+}
+
+.country-item-red {
+    padding: 20px;
+    border: 1px solid #ff0000;
+    border-radius: 8px;
+}
+
+.country-item img {
+    width: 160px;
+}
+
+.country-item-red  img {
+    width: 160px;
+}
