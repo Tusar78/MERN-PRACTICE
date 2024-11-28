@@ -1,0 +1,113 @@
+[
+    {
+      "id": "blogpost1",
+      "img": "https://i.ibb.co.com/h9tXqFX/frame-1000018205.webp",
+      "title": "Understanding JavaScript Closures",
+      "details": "Closures are a powerful feature in JavaScript that allow functions to access variables from their outer scope, even after the outer function has returned.",
+      "writer_img": "https://i.ibb.co.com/nj12tGR/mask-group.webp",
+      "writer_name": "John Doe",
+      "post_date": "Nov 20",
+      "reading_time": "5 min",
+      "hashtag": ["JavaScript", "Programming", "Web Development"]
+    },
+    {
+      "id": "blogpost2",
+      "img": "https://i.ibb.co.com/HtVDJqd/frame-1000018205-2.webp",
+      "title": "10 Tips for Responsive Web Design",
+      "details": "Responsive design ensures your website looks great on all devices. These 10 tips will guide you in creating a better user experience.",
+      "writer_img": "https://i.ibb.co.com/pKM993K/alexander-hipp-i-EEBWg-Y-6l-A-unsplash.jpg",
+      "writer_name": "Jane Smith",
+      "post_date": "Nov 18",
+      "reading_time": "8 min",
+      "hashtag": ["Web Design", "CSS", "UI/UX"]
+    },
+    {
+      "id": "blogpost3",
+      "img": "https://i.ibb.co.com/rfT93XC/frame-1000018205-4.webp",
+      "title": "The Rise of AI in 2024",
+      "details": "Artificial Intelligence is shaping the future of technology. Explore the latest trends and applications of AI in this in-depth article.",
+      "writer_img": "https://i.ibb.co.com/b3rLVCg/rectangle-34625672-1.webp",
+      "writer_name": "Michael Brown",
+      "post_date": "Nov 15",
+      "reading_time": "10 min",
+      "hashtag": ["AI", "Technology", "Future"]
+    },
+    {
+      "id": "blogpost4",
+      "img": "https://i.ibb.co.com/NrXwtfC/frame-1000018205-5.webp",
+      "title": "How to Build a REST API with Node.js",
+      "details": "Learn step-by-step how to build a REST API using Node.js, Express, and MongoDB in this beginner-friendly tutorial.",
+      "writer_img": "https://i.ibb.co.com/YBWCPCG/rectangle-34625672-2.webp",
+      "writer_name": "Emily Davis",
+      "post_date": "Nov 10",
+      "reading_time": "12 min",
+      "hashtag": ["Node.js", "API", "Backend Development"]
+    },
+    {
+      "id": "blogpost5",
+      "img": "https://i.ibb.co.com/GCs0qfJ/frame-1000018205-6.webp",
+      "title": "Mastering CSS Grid for Modern Layouts",
+      "details": "CSS Grid is a game-changer for creating complex layouts. This guide will help you master its features and unlock new design possibilities.",
+      "writer_img": "https://i.ibb.co.com/qnKfnMH/image-40.webp",
+      "writer_name": "Sophia Wilson",
+      "post_date": "Nov 05",
+      "reading_time": "7 min",
+      "hashtag": ["CSS", "Web Design", "Frontend Development"]
+    },
+    {
+      "id": "blogpost6",
+      "img": "https://i.ibb.co.com/W22hxvB/frame-1000018205-7.webp",
+      "title": "Exploring Blockchain Beyond Cryptocurrency",
+      "details": "Blockchain technology has applications far beyond Bitcoin. Discover how it's revolutionizing industries like healthcare and finance.",
+      "writer_img": "https://i.ibb.co.com/bFGrv6v/image-42.webp",
+      "writer_name": "Chris Johnson",
+      "post_date": "Nov 02",
+      "reading_time": "9 min",
+      "hashtag": ["Blockchain", "Technology", "Innovation"]
+    },
+    {
+      "id": "blogpost7",
+      "img": "https://i.ibb.co.com/zSYnfLt/frame-1000018205-10.webp",
+      "title": "Getting Started with React Hooks",
+      "details": "React Hooks simplify state management and lifecycle events in functional components. Here's how you can get started with them.",
+      "writer_img": "https://i.ibb.co.com/hZCkh39/image-44.webp",
+      "writer_name": "Olivia Martinez",
+      "post_date": "Oct 30",
+      "reading_time": "6 min",
+      "hashtag": ["React", "JavaScript", "Frontend Development"]
+    },
+    {
+      "id": "blogpost8",
+      "img": "https://i.ibb.co.com/2kfvx5M/frame-1000018205-12.webp",
+      "title": "Cybersecurity Tips for Small Businesses",
+      "details": "Small businesses are often targets of cyberattacks. Follow these essential tips to protect your business data and systems.",
+      "writer_img": "https://i.ibb.co.com/T8FWQg3/image-45.webp",
+      "writer_name": "Liam Taylor",
+      "post_date": "Oct 25",
+      "reading_time": "4 min",
+      "hashtag": ["Cybersecurity", "Business", "Tech Tips"]
+    },
+    {
+      "id": "blogpost9",
+      "img": "https://i.ibb.co.com/ngC9Yzx/frame-1000018205-15.webp",
+      "title": "Top 5 Programming Languages to Learn in 2024",
+      "details": "Which programming languages should you focus on this year? Check out the top 5 that will dominate the tech industry in 2024.",
+      "writer_img": "https://i.ibb.co.com/nj12tGR/mask-group.webp",
+      "writer_name": "Isabella Lee",
+      "post_date": "Oct 20",
+      "reading_time": "6 min",
+      "hashtag": ["Programming", "Tech Trends", "Learning"]
+    },
+    {
+      "id": "blogpost10",
+      "img": "https://i.ibb.co.com/ZKg200t/frame-1000018205-16.webp",
+      "title": "Understanding DevOps: A Beginner's Guide",
+      "details": "DevOps bridges the gap between development and operations teams. Learn the basics and why it matters in software development.",
+      "writer_img": "https://i.ibb.co.com/nj12tGR/mask-group.webp",
+      "writer_name": "Ethan White",
+      "post_date": "Oct 15",
+      "reading_time": "8 min",
+      "hashtag": ["DevOps", "Software", "Engineering"]
+    }
+  ]
+  
